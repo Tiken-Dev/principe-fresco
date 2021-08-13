@@ -1,0 +1,6 @@
+.last-section {
+  background: url("../assets/images/cover-x1.png") no-repeat center center fixed;
+  background-size: cover;
+  block-size: 100vh;
+  margin-block-start: 15rem;
+}
