@@ -1,0 +1,23 @@
+::-webkit-scrollbar {
+  background: transparent;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 76, 19, .7);
+  height: 2px;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+  ::-webkit-scrollbar {
+    background: #3C3D3C;
+    width: 9px;
+
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 76, 19, 1);
+  }
+}
