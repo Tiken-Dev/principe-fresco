@@ -1,5 +1,5 @@
 .footer {
-  /* margin-block-start: 4rem; */
+  margin-block-start: -4.6rem;
   block-size: 20rem;
   background: var(--black);
   display: flex;

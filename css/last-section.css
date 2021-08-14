@@ -1,6 +1,23 @@
 .last-section {
-  background: url("../assets/images/cover-x1.png") no-repeat center center fixed;
-  background-size: cover;
-  block-size: 100vh;
-  margin-block-start: 15rem;
+  background: url("../assets/images/cover-x1.png") no-repeat center;
+  background-size: contain;
+  block-size: 50vh;
+  margin-block-start: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .last-section {
+    background: url("../assets/images/cover-x1.png") no-repeat center center fixed;
+    background-size: cover;
+    block-size: 100vh;
+    margin-block-start: 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .last-section {
+    margin-block-start: 15rem;
+  }
 }

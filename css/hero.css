@@ -47,9 +47,8 @@
 }
 
 a:hover .max {
-  visibility:visible;
+  visibility: visible;
   top: 8.75rem;
-  transition: all 500ms ease;
 }
 
 
@@ -134,19 +133,28 @@ a:hover .max {
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
+
   .hero {
     margin-block-start: 3.75rem;
   }
 
-
-  .hero-container {
-    max-inline-size: 75rem;
-  }
   .thumbnail-container {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+  }
+
+  .big-img-container img {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+
+  .hero-container {
+    max-inline-size: 75rem;
   }
 
   .big-img-container img{

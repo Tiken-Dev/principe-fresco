@@ -6,6 +6,17 @@
   <meta name="description" content="Príncipe Fresco es una tienda de ropa online dedicada al célebre personaje de Will Smith, el Príncipe de Bel-Air"">
   <title>Príncipe Fresco</title>
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preload" href="./css/slider.css" as="style">
+  <link rel="preload" href="./css/footer.css" as="style">
+  <link rel="preload" href="./css/last-section.css" as="style">
+  <link rel="preload" href="./css/nav.css" as="style">
+  <link rel="preload" href="./css/section.css" as="style">
+  <link rel="preload" href="./css/hero.css" as="style">
+  <link rel="preload" href="./css/button.css" as="style">
+  <link rel="preload" href="./css/wrapper.css" as="style">
+  <link rel="preload" href="./css/global.css" as="style">
+  <link rel="preload" href="./css/icons.css" as="style">
+  <link rel="preload" href="./css/header.css" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -37,11 +48,11 @@
 
   <div id="slider">
     <figure>
-      <img src="./assets/images/hero1-x1.png" alt="">
-      <img src="./assets/images/hero2-x1.png" alt="">
-      <img src="./assets/images/hero3-x1.png" alt="">
-      <img src="./assets/images/hero4-x1.png" alt="">
-      <img src="./assets/images/hero1-x1.png" alt="">
+      <img src="./assets/images/hero1-x1.png" width="360" height="540" loading="lazy" alt="Product 1">
+      <img src="./assets/images/hero2-x1.png" width="360" height="540" loading="lazy" alt="Product 2">
+      <img src="./assets/images/hero3-x1.png" width="360" height="540" loading="lazy" alt="Product 3">
+      <img src="./assets/images/hero4-x1.png" width="360" height="540" loading="lazy" alt="Product 4">
+      <img src="./assets/images/hero1-x1.png" width="360" height="540" loading="lazy" alt="Product 1">
     </figure>
   </div>
 
@@ -56,23 +67,23 @@
             <div class="thumbnail-container">
 
               <a href="#slider1">
-                <img class="thumbnail is-active" src="./assets/images/hero1-x1.png" width="616" height="924" loading="lazy" alt="Thumbnail 1" title="Thumbnail 1">
-                <img class="max" src="./assets/images/hero1-x1.png" width="616" height="924" loading="lazy" alt="Thumbnail 1" title="Thumbnail 1">
+                <img class="thumbnail is-active" src="./assets/images/hero1-x1.png" width="80" height="120" loading="lazy" alt="Thumbnail 1" title="Thumbnail 1">
+                <img class="max" src="./assets/images/hero1-x1.png" loading="lazy" alt="Thumbnail 1" title="Thumbnail 1">
               </a>
 
               <a href="#slider2">
-                <img class="thumbnail" src="./assets/images/hero2-x1.png" width="616" height="924" loading="lazy" alt="Thumbnail 2" title="Thumbnail 2">
-                <img class="max" src="./assets/images/hero2-x1.png" width="616" height="924" loading="lazy" alt="Thumbnail 2" title="Thumbnail 2">
+                <img class="thumbnail" src="./assets/images/hero2-x1.png" width="80" height="120" loading="lazy" alt="Thumbnail 2" title="Thumbnail 2">
+                <img class="max" src="./assets/images/hero2-x1.png" loading="lazy" alt="Thumbnail 2" title="Thumbnail 2">
               </a>
 
               <a href="#slider3">
-                <img class="thumbnail" src="./assets/images/hero3-x1.png" width="616" height="924" loading="lazy" alt="Thumbnail 3" title="Thumbnail 3">
-                <img class="max" src="./assets/images/hero3-x1.png" width="616" height="924" loading="lazy" alt="Thumbnail 3" title="Thumbnail 3">
+                <img class="thumbnail" src="./assets/images/hero3-x1.png" width="80" height="120" loading="lazy" alt="Thumbnail 3" title="Thumbnail 3">
+                <img class="max" src="./assets/images/hero3-x1.png" loading="lazy" alt="Thumbnail 3" title="Thumbnail 3">
               </a>
 
               <a href="#slider4">
-                <img class="thumbnail" src="./assets/images/hero4-x1.png" width="616" height="924" loading="lazy" alt="Thumbnail 4" title="Thumbnail 4">
-                <img class="max" src="./assets/images/hero4-x1.png" width="616" height="924" loading="lazy" alt="Thumbnail 4" title="Thumbnail 4">
+                <img class="thumbnail" src="./assets/images/hero4-x1.png" width="80" height="120" loading="lazy" alt="Thumbnail 4" title="Thumbnail 4">
+                <img class="max" src="./assets/images/hero4-x1.png" loading="lazy" alt="Thumbnail 4" title="Thumbnail 4">
               </a>
 
 
@@ -129,22 +140,19 @@
 
       <div class="other-products-container">
         <figure>
-          <img class="product-img" src="./assets/images/fresh1.png" width="190" height="285" alt="Fresh Sweater" title="Fresh Sweater" loading="lazy">
-          <!-- <img class="top" src="./assets/images/fresh2.png" alt="Fresh Sweater" title="Fresh Sweater" loading="lazy"> -->
+          <img class="product-img img1" src="./assets/images/fresh1.png" width="190" height="285" alt="Fresh Sweater" title="Fresh Sweater" loading="lazy">
           <figcaption>Fresh Stripe Sweater</figcaption>
           <p>$85.00</p>
         </figure>
 
         <figure>
-          <img class="product-img" src="./assets/images/black1.png" width="190" height="285" alt="Fresh Black Tie-Dye Hoodie" title="Fresh Black Tie-Dye Hoodie" loading="lazy">
-          <!-- <img class="top" src="./assets/images/black2.png" alt="Fresh Black Tie-Dye Hoodie" title="Fresh Black Tie-Dye Hoodie" loading="lazy"> -->
+          <img class="product-img img2" src="./assets/images/black1.png" width="190" height="285" alt="Fresh Black Tie-Dye Hoodie" title="Fresh Black Tie-Dye Hoodie" loading="lazy">
           <figcaption>Fresh Black Tie-Dye Hoodie</figcaption>
           <p>$75.00</p>
         </figure>
 
         <figure>
-          <img class="product-img" src="./assets/images/white1.png" width="190" height="285" alt="Pose For It Tee" title="Pose For It Tee" loading="lazy">
-          <!-- <img class="top" src="./assets/images/white2.png" alt="Pose For It Tee" title="Pose For It Tee" loading="lazy"> -->
+          <img class="product-img img3" src="./assets/images/white1.png" width="190" height="285" alt="Pose For It Tee" title="Pose For It Tee" loading="lazy">
           <figcaption>Pose For It Tee</figcaption>
           <p>$45.00</p>
         </figure>
@@ -154,7 +162,7 @@
 
       <!-- LAST SECTION -->
 
-      <!-- <section class="last-section"></section> -->
+      <section class="last-section"></section>
 
 
       <!-- FOOTER -->
